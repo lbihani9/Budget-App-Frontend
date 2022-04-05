@@ -1,0 +1,72 @@
+.main-content {
+	/* box-sizing: content-box; */
+	background-color: black;
+	height: 670px;
+	width: 100%;
+	font-family: "Lobster", monospace;
+	font-size: 50px;
+}
+
+.main-content .content {
+	height: 200px;
+}
+
+.navbar-brand {
+	font-size: xx-large;
+	font-family: "Roboto Mono", monospace;
+	padding-left: 1%;
+}
+
+.statements {
+	padding-block-start: 8%;
+}
+
+.auth {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-block-start: 10%;
+	padding: 4%;
+	color: white;
+	font-size: 20px;
+}
+
+.auth p {
+	text-align: center;
+}
+
+.auth .social-icon {
+	margin-inline-end: 0.5%;
+}
+
+/* landing page button */
+.lpb {
+	font-size: xx-large;
+	width: 18%;
+	background-color: white;
+
+	/* uncomment this when having multiple buttons*/
+	/* margin-inline-end: 4%; */
+}
+
+.statements {
+	color: white;
+}
+
+.social-div .social-icon {
+	margin-inline-end: 0.5%;
+	font-size: 1.5em;
+}
+
+footer {
+	position: relative;
+	top: 75px;
+	/* text-align: center; */
+	/* padding: 7% 13%; */
+}
+
+.social-div {
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,54 @@
+/* .records {
+	padding: 4% auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.row {
+	margin: 4%;
+}
+
+.ip-form {
+	border: thin dashed black;
+
+}
+
+
+.form-input-field {
+	border-style: hidden hidden solid hidden;
+    outline: none;
+}
+
+.add-button {
+	transition: transform 450ms;
+	background-color: white;
+	margin: 50px 0 0;
+	color: blue;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: 1px dashed black;
+}
+
+.add-button:hover {
+	transform: scale(1.08);
+}
+
+input {
+	resize: horizontal;
+	width: 180px;
+}
+
+input:active {
+	width: auto;   
+}
+
+input:focus {
+	min-width: auto;
+}

@@ -1,0 +1,4 @@
+.add-new-transaction {
+    display: grid;
+    width: -webkit-fill-available;
+}

@@ -1,0 +1,32 @@
+.card {
+	/* margin-block-end: 8%; */
+	width: 200px;
+	height: 200px;
+	border-radius: 5%;
+	transition: transform 450ms;
+}
+
+.card:hover {
+	transform: scale(1.08);
+	box-shadow: 5px 10px #888888;
+}
+
+.card-text {
+	font-family: "Lobster", monospace;
+	font-size: x-large;
+}
+
+/* dashboard button */
+.dbb {
+	width: fit-content;
+	height: fit-content;
+	border-radius: 50%;
+	background-color: white;
+	font-size: x-large;
+	color: blue;
+}
+
+/* .pen-icon,
+.trash-icon {
+	padding: 0.8;
+} */
